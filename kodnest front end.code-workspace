@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../kodnest front end"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "kodnest front end"
+	}
+}

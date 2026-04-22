@@ -1,4 +1,4 @@
-# 🌐 Portfolio Website
+ 🌐 Portfolio Website
 
 ## 🧾 Project Overview and Objectives
 
@@ -93,7 +93,7 @@ Example:
 
 ### ✅ Code Quality
 - Proper indentation  
-- Clean and readable structure  
+- Clean and readable structure  #
 
 ---
 

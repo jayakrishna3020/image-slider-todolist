@@ -1,0 +1,167 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    
+}
+body{
+  background: linear-gradient(to right, rgb(186, 202, 202), rgb(223, 94, 90));
+}
+
+
+    #header {
+        display: flex;
+        justify-content: space-between; /* pushes title left, nav right */
+        align-items: center;
+        padding: 20px;
+    }
+      #header nav {
+        display: flex;
+        gap: 30px; /* space between About, Skills, Contact */
+        background: none;
+      }
+      .skills h2{
+        transition: transform 0.5s ease;
+      }
+      .skills h2:hover{
+        transform: scale(1.1);
+      }
+      #header h1 {
+        transition: transform 0.5s ease;
+    }
+    
+    #header h1:hover {
+        transform: scale(1.1);
+    }
+    #header a {
+      transition: font-size 0.5s ease;
+  }
+  
+
+    #header a:hover{
+      font-size: x-large;
+    }
+    .contact h2 {
+      transition: transform 0.5s ease;
+      transform-origin: left;
+  }
+  
+  .contact h2:hover {
+      transform: scale(1.1);
+  }
+        
+      
+      #header a{
+        text-decoration: none;
+        color: rgb(187, 231, 30);
+        font-size: 18px;
+        background: none;
+      }
+      .about p{
+background: none;
+      }
+      .about img{
+        margin-left: auto;
+        width:200px;
+        height:180px
+      }
+        
+        #header h1{
+          background: none;
+        }
+        .about {
+          display:flex;
+         flex-direction: row-reverse;
+          justify-content:center;
+          align-items: center;
+          gap:20px;
+        }
+
+        .about p{
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+          font-style: oblique;
+          font-weight: 100;
+        }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;   /* centers everything horizontally */
+    text-align: center;
+    gap:20px;
+    padding-left:20px;
+    
+}
+.skills ul{
+ font-style: italic;
+ font-weight: bold;
+ display:grid;
+ row-gap: 20px;
+ background: none;
+ }
+.skills li,
+.skills h2{
+  background: none;
+}
+ .contact *{
+  background: none;
+  
+ }
+ .contact{
+ padding-left: 20px;
+ padding-top: 10px;
+ }
+
+ .footer p{
+  font-size: larger;
+  font-style: italic;
+  font-weight: bold;
+  padding-top: 10px;
+ }
+
+ /* normal styles */
+
+.about {
+  display: flex;
+}
+
+
+.about img{
+  transition: transform 0.5s ease;
+}
+.about img:hover{
+  transform: rotate(20deg);
+
+}
+.header h1:hover{
+  font-size: 300px;
+  transition: transform 0.5s ease;
+}
+
+ .about img:hover {
+  animation: zoom 1s infinite alternate;
+}
+
+@keyframes zoom {
+  from { transform: scale(1); }
+  to   { transform: scale(1.1); }
+}
+@media (max-width: 600px) {
+  body {
+      background: linear-gradient(to right, red, orange);
+  }
+  #header {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about {
+    flex-direction: column;
+    text-align: center;
+}
+
+.about img {
+    width: 150px;
+    height: auto;
+}
+}
