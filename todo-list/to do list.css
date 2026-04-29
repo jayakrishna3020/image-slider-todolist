@@ -1,0 +1,36 @@
+body {
+    font-family: Arial;
+    background: linear-gradient(to right, #50b838, #7c16a8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background: rgb(190, 122, 122);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+  }
+  
+  input {
+    width: 70%;
+    padding: 8px;
+  }
+  
+  button {
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
